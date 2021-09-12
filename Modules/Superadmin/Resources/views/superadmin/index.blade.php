@@ -120,7 +120,7 @@
 		            <div class="box-body">
 		            	{!! $monthly_sells_chart->container() !!}
 		            </div>
-		            <!-- /.box-body -->
+		            
 	          	</div>
 	  		</div>
   		</div>
