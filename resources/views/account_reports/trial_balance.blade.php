@@ -29,10 +29,10 @@
         <div class="box-header print_section">
             <h3 class="box-title">{{session()->get('business.name')}} - @lang( 'account.trial_balance') - <span id="hidden_date">{{@format_date('now')}}</span></h3>
         </div>
-        <div class="box-body">
+        <div class="box-body bg-white">
             <table class="table table-border-center-col no-border table-pl-12" id="trial_balance_table">
                 <thead>
-                    <tr class="bg-gray">
+                    <tr class="bg-gray practice">
                         <th>@lang('account.trial_balance')</th>
                         <th>@lang('account.credit')</th>
                         <th>@lang('account.debit')</th>

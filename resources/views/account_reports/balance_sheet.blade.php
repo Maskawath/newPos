@@ -25,14 +25,14 @@
         </div>
     </div>
     <br>
-    <div class="box box-solid">
+    <div class="box box-solid the-solid">
         <div class="box-header print_section">
             <h3 class="box-title">{{session()->get('business.name')}} - @lang( 'account.balance_sheet') - <span id="hidden_date">{{@format_date('now')}}</span></h3>
         </div>
         <div class="box-body">
             <table class="table table-border-center no-border table-pl-12">
                 <thead>
-                    <tr class="bg-gray">
+                    <tr class="bg-gray practice">
                         <th>@lang( 'account.liability')</th>
                         <th>@lang( 'account.assets')</th>
                     </tr>

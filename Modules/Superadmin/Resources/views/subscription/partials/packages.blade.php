@@ -6,7 +6,7 @@
 	@endif
     <div class="col-md-4">
     	
-		<div class="box box-success hvr-grow-shadow">
+		<div class="box box-success tut">
 			<div class="box-header with-border text-center">
 				<h2 class="box-title">{{$package->name}}</h2>
 			</div>
